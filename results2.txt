@@ -1,0 +1,123 @@
+gcagagag
+	Pre-processing time: 0.003561 seconds.
+[5]
+	naive_match 	0.000108 seconds	1 matches
+[5]
+	knuth_morris_pratt 	5.6e-05 seconds	1 matches
+[5]
+	boyer_moore 	3e-05 seconds	1 matches
+0 1 2 3 4 5 6 7  index
+g c a g a g a g  patt
+0 0 0 0 5 0 3 0  strong L values for Boyer-Moore (L'), Gusfield theorem 2.2.2, p. 21
+1 1 1 1 1 1 1 1  2.2.4
+Zhu-Takaoka
+defaultdict(<type 'int'>, {'ca': 2, 'gc': 1, 'ga': 6, 'ag': 7})
+Top loop 0 7 7
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+g c a g a g a g 
+bad offset is 2 xy is ca
+xy is  ca
+  Char IN patt,  7 2 ca
+ updating t to 5
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+          g c a g a g a g 
+ updating c to 12
+ resetting p to 7
+c is still less than the txt length
+updating x and bad_off
+bad offset is 0 xy is ag
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+          g c a g a g a g 
+Top loop 5 12 7
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+          g c a g a g a g 
+bad offset is 7 xy is ag
+xy is  ag
+     Match at 7 12
+bad offset is 7 xy is ag
+     p is 6 c is 11 t is  5
+         p is c
+     Match at 6 11
+bad offset is 6 xy is ga
+     p is 5 c is 10 t is  5
+         p is c
+     Match at 5 10
+bad offset is 7 xy is ag
+     p is 4 c is 9 t is  5
+         p is c
+     Match at 4 9
+bad offset is 6 xy is ga
+     p is 3 c is 8 t is  5
+         p is c
+     Match at 3 8
+bad offset is 7 xy is ag
+     p is 2 c is 7 t is  5
+         p is c
+     Match at 2 7
+bad offset is 2 xy is ca
+     p is 1 c is 6 t is  5
+         p is c
+     Match at 1 6
+bad offset is 1 xy is gc
+     p is 0 c is 5 t is  5
+         p is c
+     Match at 0 5
+bad offset is 0 xy is cg
+     p is -1 c is 4 t is  5
+ Trying to add to list 5 4 -1 
+xy is  cg right now
+  gcagagag
+ Char not in patt 0 cg 1
+  updating t to 7 by,  2
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+              g c a g a g a g 
+ updating c to 14
+ resetting p to 7
+c is still less than the txt length
+updating x and bad_off
+bad offset is 0 xy is ta
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+              g c a g a g a g 
+Top loop 7 14 7
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+              g c a g a g a g 
+bad offset is 0 xy is ta
+xy is  ta
+ Char not in patt 0 ta 7
+  updating t to 15 by,  8
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+                              g c a g a g a g 
+ updating c to 22
+ resetting p to 7
+c is still less than the txt length
+updating x and bad_off
+bad offset is 0 xy is ac
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+                              g c a g a g a g 
+Top loop 15 22 7
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+                              g c a g a g a g 
+bad offset is 0 xy is ac
+xy is  ac
+ Char not in patt 0 ac 7
+  updating t to 23 by,  8
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+                                              g c a g a g a g 
+ updating c to 30
+ resetting p to 7
+0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6 7 8 9 0 1 2 3 
+g c a t c g c a g a g a g t a t a c a g t a c g 
+                                              g c a g a g a g 
+[5]
+	zhu_takoaka 	0.000603 seconds	1 matches

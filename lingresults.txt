@@ -1,0 +1,48 @@
+consis
+	Pre-processing time: 0.000391 seconds.
+	naive_match 	1.600776 seconds	82 matches
+	knuth_morris_pratt 	0.044347 seconds	82 matches
+	boyer_moore 	0.398379 seconds	82 matches
+	zhu_takoaka 	0.448742 seconds	82 matches
+springing
+	Pre-processing time: 0.000491 seconds.
+	naive_match 	1.422614 seconds	3 matches
+	knuth_morris_pratt 	0.02511 seconds	3 matches
+	boyer_moore 	0.27656 seconds	3 matches
+	zhu_takoaka 	0.539624 seconds	3 matches
+stocks
+	Pre-processing time: 0.000167 seconds.
+	naive_match 	1.244431 seconds	553 matches
+	knuth_morris_pratt 	0.061947 seconds	1106 matches
+	boyer_moore 	0.22055 seconds	553 matches
+	zhu_takoaka 	0.414884 seconds	553 matches
+strongest
+	Pre-processing time: 0.000173 seconds.
+	naive_match 	1.210346 seconds	15 matches
+	knuth_morris_pratt 	0.033209 seconds	15 matches
+	boyer_moore 	0.18656 seconds	15 matches
+	zhu_takoaka 	0.345325 seconds	15 matches
+ident
+	Pre-processing time: 0.000171 seconds.
+	naive_match 	1.05973 seconds	1539 matches
+	knuth_morris_pratt 	0.024983 seconds	1539 matches
+	boyer_moore 	0.209754 seconds	1539 matches
+	zhu_takoaka 	0.424712 seconds	1539 matches
+resident
+	Pre-processing time: 0.000189 seconds.
+	naive_match 	1.088826 seconds	1281 matches
+	knuth_morris_pratt 	0.025334 seconds	1281 matches
+	boyer_moore 	0.163696 seconds	1281 matches
+	zhu_takoaka 	0.321061 seconds	1281 matches
+the Dow Jones Industrial Average
+	Pre-processing time: 0.000331 seconds.
+	naive_match 	1.126938 seconds	57 matches
+	knuth_morris_pratt 	0.029276 seconds	57 matches
+	boyer_moore 	0.082828 seconds	57 matches
+	zhu_takoaka 	0.200093 seconds	57 matches
+it , he said .
+	Pre-processing time: 0.000371 seconds.
+	naive_match 	1.436376 seconds	8 matches
+	knuth_morris_pratt 	0.051801 seconds	8 matches
+	boyer_moore 	0.384014 seconds	8 matches
+	zhu_takoaka 	0.455566 seconds	8 matches

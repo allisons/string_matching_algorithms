@@ -1,0 +1,16 @@
+allison
+	Pre-processing time: 0.000672 seconds.
+0 1 2 3 4 5 6  Index
+a l l i s o n  Patt
+0 0 0 0 0 0 0  Z values
+0 0 0 0 0 0 0  Weak l values
+0 0 0 0 0 0 0  L prime
+defaultdict(<type 'int'>, {'a': 0, 'i': 3, 'l': 2, 'o': 5, 'n': 6, 's': 4})
+defaultdict(<type 'int'>, {'on': 6, 'll': 2, 'al': 1, 'li': 3, 'so': 5, 'is': 4})
+[6, 26]
+	naive_match 	0.000393 seconds	2 matches
+[6, 26]
+	knuth_morris_pratt 	0.000116 seconds	2 matches
+[]
+	boyer_moore 	8.6e-05 seconds	0 matches
+	zhu_takoaka 	5.7e-05 seconds	0 matches
